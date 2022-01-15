@@ -1,0 +1,248 @@
+<!-- Stationery Shop website
+Albert Stationery & Books
+Assume a shop
+xerox
+books
+print outs
+thesis
+book binding
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Welcome to Albert Stationery</title>
+</head>
+<style>
+  .jumbotron {
+    padding: 4rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+  }
+  .navbar-brand{
+    filter: brightness(100);
+   
+    
+  }
+</style>
+
+<body>
+  <!--our code starts here-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      
+      <a class="navbar-brand" href="/"> <img src="/albert-logo-darkblue.png" alt="logo"  width="200" ></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home </a>
+          </li>
+          <li class="nav-item">
+
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/Services.html">Stationery</a></li>
+              <li><a class="dropdown-item" href="/Services.html">Xerox</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="/Services.html">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+
+            <a class="nav-link" href="/Contact us.html">Contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Semester End Sale!</strong> You can now print your thesis for only Rs 200.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <div class="container">
+
+    <div class="jumbotron ">
+      <h1 class="display-4">Welcome to Albert Stationery!</h1>
+      <p class="lead">Visit our shop to see amazing creations from our designers.
+        .</p>
+      <hr class="my-4">
+      <p>Visit Our shop and Get stationery your Budget .</p>
+      <a class="btn btn-primary btn-lg"
+        href="https://www.google.com/maps/place/Coding+Campus/data=!3m1!4b1!4m2!3m1!1s0x396f835c096fe515:0xd839c000f2e867ae"
+        target="_blank" role="button">View on Google Maps</a>
+    </div>
+  </div>
+  <!--Slide show fo The albert page-->
+  <div class="container">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/book.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>NOTEBOOK'S & COPY'S</h1>
+            <p>Buy Notebook Affordable Price.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/51vOMolqGsL._SX679_.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Pens</h1>
+            <p>Buy Pens all Types.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/outlander_by_diana_gabaldon_erotic_novels.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Books </h1>
+            <p>Buy Books Novels , JEE, NEET, NCERT, ETC.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+
+      <div class="col-md-4 text-center">
+
+        <img src="home 1.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" />
+        <h2>Buy Crayons in Kota</h2>
+        <p>Crayola Crayons provide color-loving kids with 24 hues to amp up school projects and artistic endeavors with
+          vibrant, high-quality results and long-lasting color. This pack contains a variety of bright colors to inspire
+          imaginative expression..</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4 text-center">
+
+        <img src="home 2.png" class="bd-placeholder-img rounded-circle" width="140" height="140" />
+        <h2>Buy Classmate Books</h2>
+        <p>Classmate Pulse A4 Notebook Single Line 180 Pages ; Classmate Pulse Regular Notebook Single Line 160 Pages ;
+          Classmate Origami 24 x 18 cm Book-size Notebook ..</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="book.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" />
+        <h2>Get Your Books Printed</h2>
+        <p>Retailer of Single Colour Printing, Laser Printer Service & Printed.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+
+    <hr>
+
+  </div> <!-- /container -->
+
+
+  </div>
+
+   <!--Footer add-->
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <!------ Include the above in your HEAD tag ---------->
+   
+  <footer class="section footer-classic context-dark bg-image" style="background: #f4f5f8;">
+    <div class="container">
+      <div class="row row-30">
+        <div class="col-md-4 col-xl-5">
+          <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="/albert-logo-darkblue.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+            <p>Albert Stationery who provide Kota's Best stationery product in your home,PG and Many more .We deliver door to door.</p>
+            <!-- Rights-->
+            <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>Contacts</h5>
+          <dl class="contact-list">
+            <dt>Address:</dt>
+            <dd>IPIA Opposite C13 Mall, Kota, Raj</dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>email:</dt>
+            <dd><a href="mailto:#">AlbertStationery@gmail.com</a></dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>phones:</dt>
+            <dd><a href="tel:#">https://AlbertStationery.com</a> <span>or</span> <a href="tel:#">https://AlbertStationary.com</a>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-md-4 col-xl-3">
+          <h5>Links</h5>
+          <ul class="nav-list">
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="https://lalitkishorverma.blogspot.com/" target="_Blank">Blog</a></li>
+            <li><a href="/Contact us.html">Contacts</a></li>
+            <li><a href="/">Pricing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row no-gutters social-container">
+      <div class="col"><a class="social-inner" href="https://www.facebook.com/home.php" target="_blank"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+      <div class="col"><a class="social-inner" href="https://www.instagram.com" target="_blank"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+      <div class="col"><a class="social-inner" href="https://twitter.com/i/flow/login" target="_blank"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+      <div class="col"><a class="social-inner" href="https://www.google.com" target="_blank"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
